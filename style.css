@@ -1,0 +1,40 @@
+body{
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 100vh;
+    max-width:100vw ;
+}
+.box{
+    background-color: white;
+    height: 300px;
+    width: 400px;
+}
+.heading{
+    text-align: center;
+    font-size: xx-large;
+    height: 40px;
+    margin: 20px;
+}
+
+input{
+    height: 30px;
+    margin-left: 50px;
+}
+button{
+    height: 35px;
+}
+.image{
+    height: 200px;
+    width: inherit;
+    display: flex;
+    place-content: center;
+}
+img{
+    /* display: none; */
+    height: 200px;
+    width: 200px;
+}
